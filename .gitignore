@@ -1,0 +1,9 @@
+build*
+package
+nbproject/private
+.stfolder
+.*.sw*
+*.tar.gz
+__*
+htdocs/node_modules
+htdocs/package-lock.json

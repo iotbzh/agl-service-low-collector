@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "*.bb": "bat",
+        "*.inc": "bat",
+        "*.bbclass": "bat",
+        "*.rules": "shellscript",
+        "collector-binding.h": "c",
+        "istream": "c",
+        "capability.h": "c",
+        "common.h": "c",
+        "plugin.h": "c",
+        "collectd.h": "c",
+        "nfc.h": "c",
+        "*.tcc": "c",
+        "low-collector.h": "c"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+
+    "cSpell.words": [
+        "libcolld", "libcollectd"
+    ]
+}

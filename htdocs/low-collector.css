@@ -1,0 +1,61 @@
+#debug-panel {
+	float: right;
+}
+
+#debug-panel.collapsed {
+	background-color: transparent;
+	overflow-x: hidden;
+}
+
+#debug-panel.expanded {
+	background-color: lightyellow;
+	max-width: 25%;
+	overflow-x: scroll;
+}
+
+#debug-panel.collapsed > #debug-panel-collapse {
+	display: none;
+}
+
+#debug-panel.expanded > #debug-panel-collapse {
+	display: block;
+}
+
+#debug-panel.collapsed > #debug-panel-expand {
+	display: block;
+}
+
+#debug-panel.expanded > #debug-panel-expand {
+	display: none;
+}
+
+#debug-panel.expanded > #debug-panel-content {
+	display: block;
+}
+
+#debug-panel.collapsed > #debug-panel-content {
+	display: none;
+}
+
+.json-key {
+	color: cornflowerblue;
+	font-weight: bold;
+}
+
+.json-string {
+	color: crimson;
+}
+
+.json-number {
+	color: sandybrown;
+}
+
+.json-boolean {
+	color: fuchsia;
+	font-weight: bold;
+}
+
+.json-null {
+	color: black;
+	font-weight: bold;
+}

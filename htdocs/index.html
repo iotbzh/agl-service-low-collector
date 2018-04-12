@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>agl-low-collector-service</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="AFB-websock.js"></script>
+        <script type="text/javascript" src="low-collector.js"></script>
+        <link rel="stylesheet" type="text/css" href="low-collector.css" />
+    </head>
+
+    <body onload="init();" id="app-body">
+		<div id="debug-panel-container"></div>
+        <h1>agl-low-collector-service</h1>
+        <p>
+			<ul>
+				<li><button onclick="subscribe();">Subscribe</button></li>
+				<li><button onclick="unsubscribe();">Unsubscribe</button></li>
+				<li><button onclick="list_devices();">list-devices</button></li>
+				<li><button onclick="list_devices_capabilities();">list-device-capabilities</button></li>
+				<li><button onclick="start_polling();">start-polling</button></li>
+				<li><button onclick="stop_polling();">stop-polling</button></li>
+			</ul>
+        </p>
+    </body>
+</html>

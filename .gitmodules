@@ -1,0 +1,6 @@
+[submodule "conf.d/app-templates"]
+	path = conf.d/app-templates
+	url = https://gerrit.automotivelinux.org/gerrit/p/apps/app-templates.git
+[submodule "src/collectd"]
+	path = src/collectd
+	url = git@github.com:collectd/collectd.git
